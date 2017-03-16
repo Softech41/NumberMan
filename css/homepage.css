@@ -1,0 +1,251 @@
+html, body{
+	background: url("../images/license.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#mini {
+
+	height: 160px;
+}
+#extra {
+	background-color: hsla(208.5,59.2%,59.6%,0.2);
+	height: 350px;
+}
+
+
+
+p {
+	margin-left: 60px;
+	text-align: center;
+	width: 160px;
+	padding: 20px;
+	font-family: Cyberverse condensed;
+	color: hsl(192, 15%, 97%);
+	font-size: 18px;
+}
+
+
+#product {
+	margin: auto;
+	margin-top: 60px;
+	background-color: hsl(	215, 22%, 26%);
+}
+
+#aboutus {
+	margin: auto;
+	margin-top: 80px;
+	background-color: hsl(	215, 22%, 26%);
+	
+}
+
+#project {
+	margin: auto;
+	margin-top: 60px;
+	background-color: hsl(	215, 22%, 26%);
+}
+
+#contacts {
+	margin: auto;
+	margin-top: 80px;
+	background-color: hsl(	215, 22%, 26%);
+}
+
+#home {
+	margin: auto;
+	margin-top: 120px;
+	background-color: hsl(6, 63%, 46% );
+}
+
+#clear p {
+	background-color: hsla(208.5,59.2%,59.6%,0.1);
+	height: auto;
+	width: auto;
+	padding-bottom: 140px;
+	border-style: none;
+	
+}
+
+#company p {
+	background-color: hsla(208.5,59.2%,59.6%,0.5);
+	width: auto;
+	padding-top: 80px;
+	border-style: none;
+	font-size: 36px;
+	
+}
+
+#mini img {
+	height: 50px;
+	width: 60px;
+}
+
+#extra p a {
+	color: hsl(192, 15%, 97%);
+	text-decoration: none;
+}
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes #extra p
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+#extra p:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+@media only screen and (max-width: 700px){
+	#extra  {
+		height: 90px;
+		margin:auto;
+	}
+	
+	#mini {
+		height: 50px;
+		margin:auto;
+		
+	}
+	
+	#company p {
+		padding: 0;
+		margin: auto;
+		border-left: 1px solid hsl(192, 15%, 97%);
+		border-right: 1px solid hsl(192, 15%, 97%);
+		margin-right: 40px;
+		margin-left: 40px;
+	}
+	
+	#mini img {
+		height: 40px;
+		width: 50px;
+	}
+
+		#extra p {
+			padding: 10px;
+			margin: auto;
+		}
+	
+		#mini p{
+			padding: 10px;
+			margin: auto;
+			
+		}
+		
+		#product {
+			border-bottom: 1px solid hsl( 5, 85%, 51% );
+		}
+		
+		#aboutus {
+		
+		}
+		
+		#home {
+			background-color: hsl(6, 63%, 46% );
+		}
+		
+		
+		#project {
+			border-bottom: 1px solid hsl( 5, 85%, 51% );
+		}
+		
+		html, body {
+			background: url("smallscreen.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		overflow-x: hidden;
+		}
+		
+		hr {
+			width: 50%;
+		}
+		
+	#clear p {
+		
+		padding-bottom: 20px;
+		height: 10px;
+		margin: auto;
+		background-color: hsla(208.5,59.2%,59.6%,0.1);
+		font-size: 12px;
+		color: hsl(	215, 22%, 26%);
+		
+	}
+}

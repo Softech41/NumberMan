@@ -1,0 +1,246 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	padding-top: 60px;
+    overflow-x: hidden;
+}
+
+.mainpage {
+	padding-top: 15px;
+}
+
+
+
+.navigation {
+	background-color: hsl(210, 29%, 29% );
+	height: 60px;
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+#button {
+	margin-top: 13px;
+} 
+
+
+
+
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+li {
+	display: inline-block;
+	color: hsl( 170, 6%, 91% );
+}
+
+#Home  {
+	font-size: 20px;
+	font-family: Cyberverse;
+	font-weight: bold;
+
+}
+
+#navbar {
+    background-color: hsl(210, 29%, 29% ); 
+}
+
+#logo img {
+	margin-top: 5px;
+	height: 50px;
+	width: 60px;
+	margin-left: 15px;
+		
+}
+
+#all {
+
+	float: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: hsl(210, 12%, 57%);
+}
+
+#aboutus {
+	float: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: hsl(210, 12%, 57%);
+}
+
+#all:hover {
+	
+	color: hsl( 192, 5%, 82% );
+}
+
+#aboutus:hover {
+	
+	color: hsl( 192, 5%, 82% );
+}
+
+
+h4 {
+	text-align: center;
+}
+
+p {
+	
+	padding-right: 20px;
+	padding-left: 20px;
+	color: hsl(  210, 29%, 21%  );
+	font-family: 'Quicksand', 'sans-serif'; 
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+.img-responsive {
+	padding-right: 20px;
+	padding-left: 20px;
+	max-width: 100%;
+	height: auto;
+}
+
+.footer {
+  position: relative;
+  clear:both;
+  padding-top:10px;
+  background-color: hsl(210, 9%, 55%);
+}  
+
+.footer li i{
+	font-size: 26px;
+	padding-right: 5px;
+}
+
+.footer p {
+	padding-left: 40px;
+	font-weight: bold;
+	color: hsla( 210, 29%, 21%, 0.7);
+}
+
+
+
+
+.col-sm-4 li {
+	display: block;
+	color: hsl( 170, 6%, 91% );
+	padding: 2px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.col-sm-4 #center {
+	padding-left: 20px;
+}
+ 
+#inline li {
+	display: inline-block;
+}
+
+#number p {
+	padding: 0;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.col-sm-4 #download  {
+	display: inline-block;
+	height: 60px;
+	width: 150px;
+}
+
+.col-sm-4 #download img {
+	height: 60px;
+	width: 150px;
+}
+
+.text p {
+	margin-top: 10px;
+	font-size: 20px;
+	color: hsl( 170, 6%, 91% );
+
+}
+
+@media only screen and (max-width: 320px){
+	.text p {
+		font-size: 10px;
+		font-weight: bold;
+	}
+}
+
+.UserProfiles {
+	 background-color: hsla(192, 15%, 99%, 0.9);
+}
+
+.col-sm-3 img {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: auto;
+	border-radius: 100%;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.mainpage h1 {
+	font-size: 50px;
+	text-align: center;
+	color: hsl( 170, 6%, 91% );
+	margin-bottom: 70px;
+	font-family: Raleway;
+	font-weight: lighter;
+}
+
+.mainpage p {
+	text-align: center;
+	color: hsl( 170, 6%, 91% );
+}
+
+.mainpage .UserProfiles p {
+	color: hsl( 210, 89%, 9% );
+}
+
+#inline li a i {
+	color: ;
+}
+
+.mainpage #subheader {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.mainpage #paragraph {
+	padding-bottom: 100px;
+}
+
+.mainpage {
+	     background: url("../images/aboutus.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 1000px){
+	#all {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+}
