@@ -82,7 +82,7 @@ p {
 }
 
 #company p {
-	background-color: hsla(208.5,59.2%,59.6%,0.5);
+	background-color: transparent;
 	width: auto;
 	padding-top: 80px;
 	border-style: none;
@@ -198,11 +198,16 @@ p {
 		border-right: 1px solid hsl(192, 15%, 97%);
 		margin-right: 40px;
 		margin-left: 40px;
+		background-color: hsla(208.5,59.2%,59.6%,0.5);
+		-webkit-box-shadow: 0 5px 5px -2px hsla(208.5,59.2%,59.6%,0.2);
+		-moz-box-shadow: 0 5px 5px -2px hsla(208.5,59.2%,59.6%,0.2);
+		box-shadow: 0 5px 5px -2px hsla(208.5,59.2%,59.6%,0.2);
 	}
 	
 	#mini img {
 		height: 40px;
 		width: 50px;
+		box-shadow: 5px 5px 5px #aaa;
 	}
 
 		#extra p {
@@ -218,10 +223,16 @@ p {
 		
 		#product {
 			border-bottom: 1px solid hsl( 5, 85%, 51% );
+			border-bottom-left-radius: 0px;
+	        border-bottom-right-radius: 0px;
+			border-top-right-radius: 15px;
+			border-top-left-radius: 15px;
+			box-shadow: 25px 25px 180px 15px hsla(208.5,59.2%,59.6%,0.2);
 		}
 		
 		#aboutus {
-		
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
 		}
 		
 		#home {
@@ -231,10 +242,20 @@ p {
 		
 		#project {
 			border-bottom: 1px solid hsl( 5, 85%, 51% );
+			border-bottom-left-radius: 0px;
+	        border-bottom-right-radius: 0px;
+		}
+		
+		#contacts {
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 15px;
+	        border-bottom-right-radius: 15px;
+			box-shadow: 15px 15px 150px 15px hsla(208.5,59.2%,59.6%,0.2);
 		}
 		
 		html, body {
-			background: url("smallscreen.jpg") no-repeat center center fixed;
+			background: url("../images/smallscreen.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
