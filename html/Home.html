@@ -24,15 +24,18 @@
 		
 		
 <ul  class="nav navbar-nav navbar-left">
-<a href="index.html"><li id="logo"><img src="../images/logo.jpg"></li></a>
-<a href="index.html"><li id="Home">SOFTECH</li></a>
+<a><li id="logo"><img src="../images/logo.jpg"></li></a>
+<a><li id="Home">SOFTECH</li></a>
 </ul>
 
 <ul id="navbar" class="collapse navbar-collapse" class="nav navbar-nav navbar-right">
-<a href="About_Us.html" target="_blank"><li id="all">About Us</li></a>
-<a href="#"><li id="all">News Feed</li></a>
+<a href="#"><li id="all">Contacts</li></a>
+<a href="#"><li id="all">Products</li></a>
 <a href="#"><li id="all">Projects</li></a>
-<a href="#"><li id="all">Team</li></a>
+<a href="About_Us.html"><li id="all">About Us</li></a>
+<a href="Home.html"><li id="all">Home</li></a>
+<a href="index.html"><li id="all"><i class="fa fa-home"></i></li></a>
+
 </ul>
 </div>
 </nav>
@@ -41,8 +44,7 @@
 <div class="mainpage">
  <div class="row">
   <div class="col-sm-6">
-  <h4>Products</h4>
-  
+
   <div class="slideshow-container">
   
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -93,24 +95,130 @@
 	
 </div>
 </div>
-
-  <h3 id="product-header">Product information management.</h3>
+</div>
+  
+  
+  <div class="col-sm-6" id="shadows">
+  <div class="row">
+  <div class="col-sm-6" id="description1">
+  <img src="../images/license.jpg">
   </div>
   
-  
-  <div class="col-sm-4" id="shadows">
-  <h4>License</h4>
-  <img class="img-responsive" src="../images/license.jpg" alt="Products">
-  <p>This section includes third-party license information for certain third-party products that are part of CA Service Desk Connector, Release 1.0.5.1.0. Oracle acknowledges that the following third-party proprietary and open source software are used in the provided programs covered by this documentation.</p>
+  <div class="col-sm-6" id="description2">
+  <p id="head">Game overview</p>
+  <p>Floppy Disk Man! is an entertaining game that will take you to a level of euphoria.</p>
+  <p><b>Platform(s):</b> Android</p>
+  <p><b>Release:</b> 1.02.2016</p>
+  <p><b>Developer(s):</b> Subsidiary</p>
+  <hr></hr>
+  <a href="#"><p>Learn More &rarr;</p></a>
   </div>
-  
-  <div class="col-sm-2">
-  <h4>Place Advert here!</h4>
   </div>
-  
+  </div>
  </div>
+ 
+ <div class="join" id="section1">
+ <a href="#section1"  id="scroll"><h2>JOIN US</h2></a>
+ </div>
+ 
+<div class="JoinUs" id="section1">
+<div class="row">
+
+<div class="col-sm-4">
+<h2 id="register">REGISTER with us interns</h2>
 </div>
 
+<div class="col-sm-4">
+<form id="JoinUs">
+<label for="firstname">First name</label>
+<input type="text" class="form-control" id="firstname" aria-describedby="firstnamehelp" placeholder="First name">
+<label for="othernames">Other names</label>
+<input type="text" class="form-control" id="othernames" aria-describedby="othernamesHelp" placeholder="Other name(s)">
+<label for="emailaddress">Email address</label>
+<input type="email" class="form-control" id="emailaddress" aria-describedby="emailhelp" placeholder="Enter email">
+
+<label for="sex">Age</label>
+<select class="form-control" id="age">
+<option selected>Choose...</option>
+<option>18 - 23</option>
+<option>24 - 29</option>
+<option>30 - 35</option>
+</select>
+
+<label for="sex">Sex</label>
+<select class="form-control" id="sex">
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<label for="sex">Institution</label>
+<select class="form-control" id="institution">
+<option>KNUST</option>
+<option>UG</option>
+<option>UCC</option>
+<option>UDS</option>
+</select>
+
+<label for="sex">Class</label>
+<select class="form-control" id="class">
+<option>First class</option>
+<option>Second class upper</option>
+<option>Second class lower</option>
+<option>Pass</option>
+</select>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+
+<div class="col-sm-4">
+<a href=""><h4 id="terms">Terms & Conditions</h4></a>
+</div>
+
+</div>
+</div>
+
+ <div class="DisplayGallery">
+ <div class="gallery">
+ <hr></hr>
+ <p id="gallery">Gallery</p>
+ <hr></hr>
+ </div>
+ <ul id="FirstGallery">
+ <li id="0"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="1"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="2"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="3"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ </ul>
+ 
+  <ul id="SecondGallery">
+ <li id="4"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="5"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="6"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ <li id="7"><img src="../images/gallery.jpg"><p id="instruction">This one will help instruction</p></li>
+ </ul>
+</div>
+
+<div class="row">
+<div class="col-sm-4">
+<h2 id="newsletter">NEWSLETTERS</h2>
+</div>
+
+<div class="col-sm-8" id="last">
+<h2>Sign Up For Our Newsletters</h2>
+<div class="SignUp">
+<form id="SignUp" method="post" onsubmit="return validateForm()" name="vForm">
+<input type="text" placeholder="Name" id="Name"></input>
+<input type="text" placeholder="Email" id="Email"></input><br />
+<input type="submit" value="Submit"></input>
+</form>
+</div>
+</div>
+</div>
+
+
+</div>
 
 <div class="footer">
 <div class="row">
@@ -153,5 +261,37 @@
 
 </body>
 
+<script type="text/javascript">
+    $(document).ready(function() {
+	$(".JoinUs").css('display','none');
+        $('.join').click(function() {
+                $('.JoinUs').slideToggle("slow");
+        });
+		
+		$("#scroll").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+    });
+</script>
+	    
+</script>
 
 </html>

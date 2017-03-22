@@ -1,5 +1,36 @@
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.ttf"); /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.woff"); /* WOFF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.otf"); /* OTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.svg"); /* SVG file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("CyberverseCondensed.woff2"); /* SVG file for CSS3 browsers */
+}
+
+
+
 html, body{
-	background: url("../images/license.jpg") no-repeat center center fixed;
+	background: url("../images/back.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -28,7 +59,7 @@ p {
 	text-align: center;
 	width: 160px;
 	padding: 20px;
-	font-family: Cyberverse condensed;
+	font-family: Cyberverse;
 	color: hsl(192, 15%, 97%);
 	font-size: 18px;
 }

@@ -1,9 +1,36 @@
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.ttf"); /* TTF file for CSS3 browsers */
+}
 
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.woff"); /* WOFF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.otf"); /* OTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.svg"); /* SVG file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Cyberverse.woff2"); /* SVG file for CSS3 browsers */
+}
 
 html, body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+
 }
 
 body {
@@ -23,7 +50,7 @@ body {
 	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-    z-index: 5;
+
 }
 
 #button {
@@ -49,15 +76,26 @@ li {
 	font-size: 20px;
 	font-family: Cyberverse;
 	font-weight: bold;
-
+	margin-top: 20px;
 }
 
 #navbar {
     background-color: hsl(210, 29%, 29% ); 
+	margin: 0;
+	padding: 0;
+}
+
+#navbar .fa {
+	font-size: 1.6em;
+	color: hsl( 192, 5%, 82% );
+}
+
+#navbar .fa:hover {
+	color: hsl( 5, 85%, 51% ) ;
 }
 
 #logo img {
-	margin-top: 5px;
+	margin-bottom: 10px;
 	height: 50px;
 	width: 60px;
 	margin-left: 15px;
@@ -67,10 +105,11 @@ li {
 #all {
 
 	float: right;
-	padding-top: 30px;
-	padding-right: 20px;
+	padding-top: 23px;
+	padding-right: 50px;
 	font-size: 18px;
-	color: hsl(210, 12%, 57%);
+	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #aboutus {
@@ -104,9 +143,6 @@ p {
 	font-family: 'Quicksand', 'sans-serif'; 
 }
 
-img {
-	margin-bottom: 20px;
-}
 
 .img-responsive {
 	padding-right: 20px;
@@ -115,7 +151,7 @@ img {
 	height: auto;
 }
 
-.footer {
+.footer { 
   position: relative;
   clear:both;
   padding-top:10px;
@@ -145,10 +181,29 @@ img {
 
 .col-sm-4 #center {
 	padding-left: 20px;
+	color: hsl( 210, 12%, 71% );
+	
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#bold {
+	color: hsla(  210, 29%, 21% , 0.9 );
 }
  
 #inline li {
 	display: inline-block;
+	
+}
+
+.fa {
+	color: hsl( 210, 12%, 71% );
+}
+
+.fa:hover {
+	color: hsl( 48, 5%, 93% );
 }
 
 #number p {
@@ -180,10 +235,17 @@ img {
 		font-size: 10px;
 		font-weight: bold;
 	}
+	
+	html {
+		margin: 0;
+		padding: 0;
+	}
+
 }
 
 .UserProfiles {
 	 background-color: hsla(192, 15%, 99%, 0.9);
+	 padding-bottom: 30px;
 }
 
 .col-sm-3 img {
@@ -206,6 +268,7 @@ img {
 	margin-bottom: 70px;
 	font-family: Raleway;
 	font-weight: lighter;
+	
 }
 
 .mainpage p {
@@ -238,9 +301,52 @@ img {
 	background-size: cover;
 }
 
-@media only screen and (max-width: 1000px){
-	#all {
-		font-size: 20px;
+@media only screen and (max-width: 500px){
+	#navbar  {
+		font-size: 10px;
+		padding-left: 20px;
 		padding-bottom: 10px;
 	}
+}	
+
+.team h3 {
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	height: 70px;
+	padding: auto;
+	width: 100px;
+	background-color: hsla(  210, 29%, 21% , 0.9 );
+	color: white;
+	margin-bottom: 10px;
 }
+
+	
+@media only screen and (max-width: 500px){
+	#all {
+		font-size: 12px;
+		padding-top: 10px;
+	}
+}
+
+
+@media (min-width:500px) {
+     
+    .col-sm-4 {
+        word-spacing: normal;
+        vertical-align: top;
+        letter-spacing: normal;
+        display: inline-block;
+        float:none;
+		width: 200px;
+		
+    }
+}
+@media (min-width:500px) {
+     .col-sm-4 {
+        float:none;
+		width: 200px;
+    }
+}
+
+
